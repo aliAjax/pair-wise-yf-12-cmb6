@@ -251,6 +251,118 @@ textarea {
   padding: 32px 12px;
 }
 
+.version {
+  border-radius: 999px;
+  padding: 6px 9px;
+  background: #eef2f7;
+  color: #445069;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.modal-mask {
+  position: fixed;
+  inset: 0;
+  background: rgba(23, 32, 51, .45);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  z-index: 10;
+}
+
+.modal {
+  width: min(460px, 100%);
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.modal h3 {
+  margin: 0;
+}
+
+.modal-meta {
+  margin: 0;
+  color: #69758c;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.conflict {
+  margin: 0;
+  background: #fdf0ec;
+  color: #c84b31;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.ledger-panel {
+  margin-top: 18px;
+  background: #fff;
+  border: 1px solid #dfe7f1;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.ledger-panel h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ledger-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ledger-filters select {
+  width: auto;
+}
+
+.ledger-list {
+  display: grid;
+  gap: 10px;
+}
+
+.ledger-item {
+  border: 1px solid #dfe7f1;
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: #fbfcfe;
+  display: grid;
+  gap: 6px;
+}
+
+.ledger-main {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ledger-sub {
+  color: #536078;
+  font-size: 13px;
+}
+
+.ledger-note {
+  margin: 0;
+  color: #445069;
+  font-size: 14px;
+}
+
+.low-tag {
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #fdf0ec;
+  color: #c84b31;
+  font-size: 12px;
+}
+
 @media (max-width: 860px) {
   .app { padding: 18px; }
   .topbar, .workspace { grid-template-columns: 1fr; }
